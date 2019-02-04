@@ -1,0 +1,32 @@
+{
+    "name": "eduzz/goofy",
+    "description": "Lib para coleta de estatísticas: 3 patetas",
+    "type": "library",
+    "keywords": ["library", "eduzz"],
+    "autoload": {
+        "psr-4": {
+            "Eduzz\\Goofy\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Eduzz\\Goofy\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0",
+        "php": ">=5.6",
+        "mockery/mockery": "^1.0"
+    },
+    "require": {
+        "php": ">=5.4",
+        "ext-mbstring": "*",
+        "eduzz/hermes": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:eduzz/hermes.git"
+        }
+    ]
+}
