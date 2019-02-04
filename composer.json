@@ -1,5 +1,5 @@
 {
-    "name": "eduzz/goofy",
+    "name": "eduzz/goofy-laravel",
     "description": "Lib para coleta de estatísticas: 3 patetas",
     "type": "library",
     "keywords": ["library", "eduzz"],
